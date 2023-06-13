@@ -115,7 +115,6 @@ a {
   justify-content: center;
   align-items: center;
   padding: 4rem 0;
-  min-height: 100vh;
 }
 @media (prefers-color-scheme: dark) {
   html {

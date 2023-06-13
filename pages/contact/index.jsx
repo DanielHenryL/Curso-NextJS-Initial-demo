@@ -1,17 +1,17 @@
 import Link from 'next/link'
 import { MainLayout } from '@/components/Layouts/MainLayout'
 
-export default function aboutPage()  {
+export default function ContactPage()  {
   return (
-    <MainLayout title={'Hnery lagunas'} content={'About Page'}>
-      <h1>About Page</h1>
+    <MainLayout title={'Daniel Contact'} content={'Contact Page'}>
+      <h1>Contact Page</h1>
 
       <h1 className={'description'}>
         Ir a <Link href={'/'}>Home</Link>
       </h1>
       <p className={'main'}>
         Get started by editing{' '};
-        <code>pages/about.tsx</code>
+        <code >pages/contact.tsx</code>
       </p>
     </MainLayout>
   )
