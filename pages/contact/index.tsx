@@ -3,7 +3,7 @@ import { MainLayout } from '@/components/Layouts/MainLayout'
 
 export default function ContactPage()  {
   return (
-    <MainLayout title={'Daniel Contact'} content={'Contact Page'}>
+    <MainLayout>
       <h1>Contact Page</h1>
 
       <h1 className={'description'}>

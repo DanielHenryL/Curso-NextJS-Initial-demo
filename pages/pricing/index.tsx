@@ -3,7 +3,7 @@ import { MainLayout } from '@/components/Layouts/MainLayout'
 
 export default function PricingPage()  {
   return (
-    <MainLayout title={'Daniel Pricing'} content={'Pricing Page'}>
+    <MainLayout>
       <h1>Pricing Page</h1>
 
       <h1 className={'description'}>

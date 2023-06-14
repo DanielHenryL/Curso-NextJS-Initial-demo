@@ -18,7 +18,7 @@ export default function AboutPage()  {
 }
 AboutPage.getLayout = function getLayout( page: JSX.Element ){
   return (
-    <MainLayout title={'Daniel About'} content={'About Page'}>
+    <MainLayout>
       <DarkLayout>
         {page}
       </DarkLayout>
