@@ -6,7 +6,7 @@ export default function Home() {
     <MainLayout title={'Daniel Home'} content={'Home Page'}>
       <h1>Home Page</h1>
           <h1 className={'description'}>
-            Ir a <Link href={'/about'}>             About</Link>
+            Ir a <Link href={'/about'}> About</Link>
           </h1>
           <p className={'main'}>
             Get started by editing{' '};
